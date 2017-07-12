@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_below="@id/layout"
+    android:layout_height="wrap_content"
+    android:text="Второй фрагмент">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Второй Фрагмент"
+        android:layout_below="@id/my_tab_layout"
+        android:textSize="20dp" />
+
+</RelativeLayout>
